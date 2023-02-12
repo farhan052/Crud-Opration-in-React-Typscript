@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: Lato;
+
+}
+
+input {
+  min-width: 250px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+button{
+  border-radius: 10px;
+}
+.red{
+  background-color: red;
+}
+.blue{
+
+}
+button:hover {
+  cursor: pointer;
+}
